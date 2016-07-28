@@ -8,6 +8,7 @@
   </parent>
   <artifactId>nuxeo-pptx-template-core</artifactId>
   <name>Nuxeo PPTX template core</name>
+  <version>8.3-SNAPSHOT</version>
   <description/>
 
   <dependencies>
