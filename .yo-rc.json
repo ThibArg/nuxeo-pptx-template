@@ -1,0 +1,10 @@
+{
+  "generator-nuxeo": {
+    "promptValues": {
+      "parent_package": "nuxeo.pptx.template",
+      "parent_artifact": "nuxeo-pptx-template-parent",
+      "package": "nuxeo.pptx.template"
+    },
+    "multi": true
+  }
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>nuxeo.pptx.template</groupId>
+    <artifactId>nuxeo-pptx-template-parent</artifactId>
+    <version>8.3-SNAPSHOT</version>
+  </parent>
+  <artifactId>nuxeo-pptx-template-core</artifactId>
+  <name>Nuxeo PPTX template core</name>
+  <description/>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.nuxeo.common</groupId>
+      <artifactId>nuxeo-common</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.runtime</groupId>
+       <artifactId>nuxeo-runtime</artifactId>
+    </dependency>
+    <dependency>
+     <groupId>org.nuxeo.ecm.core</groupId>
+    <artifactId>nuxeo-core-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.core</groupId>
+      <artifactId>nuxeo-core-convert</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.automation</groupId>
+      <artifactId>nuxeo-automation-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.ecm.automation</groupId>
+      <artifactId>nuxeo-automation-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.nuxeo.template.rendering</groupId>
+        <artifactId>nuxeo-template-rendering-api</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.nuxeo.template.rendering</groupId>
+        <artifactId>nuxeo-template-rendering-core</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.nuxeo.template.rendering</groupId>
+        <artifactId>nuxeo-template-rendering-xdocreport</artifactId>
+    </dependency>
+
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.core</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.converter</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.template</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+    <!--
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.template.velocity</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+    -->
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.template.freemarker</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.document</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.document.pptx</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.document.odt</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.document.ods</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+    <dependency>
+        <groupId>fr.opensagres.xdocreport</groupId>
+        <artifactId>fr.opensagres.xdocreport.document.docx</artifactId>
+        <version>1.0.5</version>
+    </dependency>
+
+    
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+</project>
